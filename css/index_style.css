@@ -2,7 +2,121 @@
     padding: 0px;
     margin: 0px;
 }
+.clr
+{
+    clear: both;
+}
+.TC
+{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+.TC h1
+{
+    font-size: 30px;
+    color: #002147;
+    font-weight: 700;
+}
+.TC p
+{
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.mk3b
+{
+    height: 178px;
+    width: 23.1%;
+    border-radius: 5px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+.klam
+{
+    padding-top: 17%;
+    background-color: #337ab7;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
 
+}
+.klam:hover
+{
+    background-color: rgba(51, 122, 183, 0.7) ;
+
+}
+.klam p
+{
+    color: white;
+}
+.TC2
+{
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.card
+{
+    margin: 10px;
+    width: 31.3333%;
+    float: left;
+    text-align: center;
+}
+.card h4
+{
+    font-weight: 700;
+}
+.card p
+{
+    font-weight: 700;
+    font-size: 16px;
+ 
+    color: #6c757d!important;
+
+
+    font-style: italic!important;
+}
+.imglay
+{
+    position: relative;
+
+   
+}
+i
+{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 40.9%;
+    text-align: center;
+    
+    
+}
+
+.imglay:hover i
+{
+    opacity: 100;
+}
+.ilay 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.7s ease;
+    background-color:#ffc107; ;  
+}
+.imglay:hover .ilay {
+    opacity: 0.8;
+  }
+  
 .navbar-light {
     background-color: #000;
 }

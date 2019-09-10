@@ -1,0 +1,271 @@
+.main
+{
+    background-image: url(../images/aa.jpg);
+    background-size: 100% 100%;
+    height: 650px;
+   position: relative;
+   border-style: solid;
+   border-width: 1px;
+   
+
+}
+.search
+{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 25%; 
+  left: 25%; 
+
+}
+.search p
+{
+    font-size: 25;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px !important;
+}
+#one{
+    opacity:0.7;
+    border-radius: 20px;
+
+}
+.seabtn
+{
+    font-size: 25px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right,#6294A2,#58C3DD);
+    border-radius: 20px;
+    padding: 0px 25px;
+    color: #fff;
+}
+.navbar {
+    padding-top: 0px;
+ 
+}
+.navbar-nav a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #477288 !important;
+    
+
+}
+.NBtn{
+   border : none;
+    background-image: linear-gradient(to right,#6294A2,#58C3DD);
+    font-family: 'Poppins', sans-serif;
+          font-size: 17px !important;
+    border-radius: 15px !important;
+}
+
+.roshta
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 1, 1, 0.6);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: none;
+}
+.roshtadiv
+{
+    width: 50%;
+    height: 80%;
+    background-color: #fff;
+    margin-top: 50px;
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    position: relative;
+}
+.roshtacont
+{
+   width: 90%;
+   height: 70%;
+   margin: 0px auto;
+   border-bottom: 3px solid #5D94CE !important;
+   border-top: 3px solid #5D94CE !important;
+   
+}
+.roshtadiv h2
+{
+    color: #5d94ce;
+    margin-top: 10px;
+}
+.roshtadiv p
+{
+    margin-left: 5%;
+}
+td
+{
+    width: 40%;
+   font-size: 14px;
+}
+table
+{
+    margin: auto;
+    margin-top: 10px;
+
+}
+span 
+{
+    content: "\211E";
+    font-size: 40;
+    margin-right: 95%;
+}
+.is
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.is i
+{
+    background-color: #5d94ce;
+    margin: 1px;
+    padding: 7px;
+    border-radius: 50%;
+    
+}
+.minu
+{
+    position: absolute;
+    top: 5%;
+    right: 5%;  
+    color: #5d94ce;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.fd-image {
+    position: relative;
+    height: auto;
+}
+
+.noor {
+    width: 50%;
+    height: auto;
+    background-color: #fbfbfb;
+    position: relative;
+    bottom: 420px;
+    border-radius: 10px;
+    margin: auto !important;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.16);
+    position: absolute
+}
+
+.xd {
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+.xdd form textarea {
+
+    height: 130px;
+    resize: none;
+
+    border-radius: 15px;
+}
+
+.rate {
+    float: left;
+    height: 45px;
+    padding: 0 10px;
+    position: absolute;
+    left: 13%;
+    top: 68%;
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+    content: "\2605<br>";
+}
+
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffc700;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffc700;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14.5px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.btnn {
+    border-radius: 25px;
+    width: 30%;
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+    color: #ffff;
+    background: linear-gradient(to right, #6294A2, #58C3DD);
+    font-family: 'Poppins', Helvetica, arial, sans-serif;
+}
+
+.ass {
+    margin-top: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #2471A3;
+    font-size: 40px;
+}
+.alooo
+{
+    height: 750px;
+}
+.feeee
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(1, 1, 1, 0.6);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: none;
+}

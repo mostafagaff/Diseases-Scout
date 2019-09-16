@@ -18,7 +18,6 @@ $(".btnn").click(function () {
 });
 //$('#outerdiv div:not(#innerdiv2)')
 
-$(".main").css("filter","blur(10px)");
 $(".tutorial1").click(function(){
     $(".tutorial1").css("display","none");
     $(".tutorial2").css("display","block");

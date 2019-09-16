@@ -64,6 +64,11 @@ else {
     
 }
 })
+$("#Nbtn2").click(function(){
+    $(".LoggedIn").fadeToggle(1000);
+
+})
+
 $(".SUp").click(function(){
      $(".sign-form").css("visibility" , "hidden");
              $(".sign-Up").css("visibility" , "visible");
@@ -134,3 +139,4 @@ $(document).ready(function () {
  $("#btnUp").click(function (){
     $("body,html").animate({scrollTop:0},1000)
 })
+

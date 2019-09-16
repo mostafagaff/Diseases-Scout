@@ -18,14 +18,9 @@ $(".btnn").click(function () {
 });
 //$('#outerdiv div:not(#innerdiv2)')
 
-$(".tutorial1").click(function(){
-    $(".tutorial1").css("display","none");
-    $(".tutorial2").css("display","block");
-    $(".main").css("filter","blur(0px)");
-    $('#one').attr('size',5);
+$(".Nbtn").click(function(){
+    $(".LoggedIn").fadeToggle(1000);
+
 })
 
-$(".tutorial2").click(function(){
-    $(".tutorial2").css("display","none");
-    $('#one').attr('size',1);
-})
+

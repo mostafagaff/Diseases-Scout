@@ -1,3 +1,11 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
 .main
 {
     background-image: url(../images/aa.jpg);
@@ -9,6 +17,64 @@
    
 
 }
+.tutorial1 {
+    position: absolute;
+    bottom:  0;
+    right: 0;
+    top:  0;
+    left: 0;
+}
+.tutorial1 img {
+    position: absolute;
+    width: 250px;
+    top:  130;
+    left: 190;
+}
+.tutorial2 {
+    position: absolute;
+    bottom:  0;
+    right: 0;
+    top:  0;
+    left: 0;
+    display: none;
+}
+.tutorial2 img {
+    position: absolute;
+    width: 250px;
+    top:  130;
+    left: 190;
+}
+
+.box {
+  width: 300px;
+  margin: 50px auto;
+  background: #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: absolute;
+        top:  0;
+    left: 300;
+}
+
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #00bfb6;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #00bfb6;
+  border-bottom: 10px solid transparent;
+  left: 19px;
+  bottom: -19px;
+}
+
+
+
 .search
 {
   height: 50%;
@@ -17,7 +83,9 @@
   top: 25%; 
   left: 25%; 
 
+    
 }
+
 .search p
 {
     font-size: 25;
@@ -139,13 +207,6 @@ span
     right: 5%;  
     color: #5d94ce;
 }
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-
 
 
 

@@ -9,88 +9,96 @@
 </head>
 
 <body>
-        <button id="btnUp" class="btn ctn-dark">
-                <i class="fas fa-arrow-alt-circle-up"></i>
-        
-            </button>
+    <button id="btnUp" class="btn ctn-dark m-auto">
+        <i class="fas fa-arrow-alt-circle-up"></i>
+
+    </button>
     <div id="load">
-        <div class="sk-folding-cube">
-                <div class="sk-cube1 sk-cube"></div>
-                <div class="sk-cube2 sk-cube"></div>
-                <div class="sk-cube4 sk-cube"></div>
-                <div class="sk-cube3 sk-cube"></div>
-              </div>
-    </div>
- 
-<section class="signinup">
-    <div class="sign-form text-center">
-        <h5 class="py-1">SignIn</h5>
-        <button class="btn btn-primary shadow-sm  m-2"><i class="fab fa-facebook-f"></i> &nbsp Facebook</button>
-        <button class="btn btn-light shadow-sm m-2"><i class="fab fa-google"></i> &nbsp Google</button>
-        <form class="Signin-form text-center">
-            <label class="mt-2" >Username</label>
-               <input id="Uname" placeholder="" class="form-control w-75 m-auto">
-                     <label class="mt-2" >Password <span>Forget!</span></label>
-               <input id="Pass" placeholder="" class="form-control w-75 m-auto">
-               
-               <button type="submit" class="btn btn-success mt-4 w-75 ">Sign in</button>
-               <p class="mt-2" >Not a member? <a class="SUp">Sign up now !</a></p>
-               
-        </form>
-    </div>
-     <div class="sign-Up text-center">
-        <h5 style="color:#609cac " class="py-1">Create account</h5>
-
-        <form class="SignUp-form">
-           <input id="Fname" class="form-control" placeholder="-First Name">
-                      <input id="Lname" class="form-control" placeholder="-Last Name">
-                      <div class="clearfix"></div>
-
-               <input type="password" id="pass" placeholder="-Password" class="form-control w-75 mt-3 ">
-               <input type="password" id="Rpass" placeholder="-Repeat Password" class="form-control w-75  mt-3 ">
-               
-               <div class="form-group">
-                   <label class="BD pt-3">Birth Date</label>
-                   <input type="date" class="bdi w-75 m-auto form-control "placeholder="MM/DD/YYYY">
-                   </div>
-                    <label class="BD">Gender</label>
-          	<div class="wrapper">
-  <div class="toggle_radio">
-    <input type="radio" class="toggle_option" id="first_toggle" name="toggle_option">
-    <input type="radio" checked class="toggle_option" id="second_toggle" name="toggle_option">
-    <input type="radio" class="toggle_option" id="third_toggle" name="toggle_option">
-    <label for="first_toggle"><p>Male</p></label>
-    <label for="second_toggle"><p>Female</p></label>
-    <label for="third_toggle"><p>Unkown</p></label>
-    <div class="toggle_option_slider">
-    </div>
-  </div>
+       <div class="d-flex justify-content-center align-items-center">
+        <div class="sk-folding-cube ">    
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
             </div>
-              
-  <div class="btn-group dropright float-left mr-4 ml-5 mt-3">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Blood Type
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">A+</a>
-    <a class="dropdown-item" href="#">A-</a>
-    <a class="dropdown-item" href="#">B+</a>
-    <a class="dropdown-item" href="#">B-</a>
-    <a class="dropdown-item" href="#">O+</a>
-    <a class="dropdown-item" href="#">O-</a>
-    <a class="dropdown-item" href="#">AB+</a>
-    <a class="dropdown-item" href="#">AB-</a>
-  </div>
-</div>
-              <input type="text" placeholder="Nearest hospital" class="form-control w-50 py-3 float-left mr-2 mt-3 shadow-sm">
-               <div class="clearfix"></div>
-               <button type="submit" class="btn btn-info mt-4 w-75 ">SignUp</button>
-               <p>Already a member? <a class="Lredirect">Login</a></p>
-               
-        </form>
+        </div>
     </div>
-</section>
-    <header class="home pb-3" >
+
+    <section class="signinup">
+        <div class="sign-form text-center">
+            <h5 class="py-1">SignIn</h5>
+            <button class="btn btn-primary shadow-sm  m-2"><i class="fab fa-facebook-f"></i> &nbsp; Facebook</button>
+            <button class="btn btn-light shadow-sm m-2"><i class="fab fa-google"></i> &nbsp; Google</button>
+            <form class="Signin-form text-center">
+                <label class="mt-2">Username</label>
+                <input id="Uname" placeholder="" class="form-control w-75 m-auto">
+                <label class="mt-2">Password <span>Forget!</span></label>
+                <input id="Pass" placeholder="" class="form-control w-75 m-auto">
+
+                <button type="submit" class="btn btn-success mt-4 w-75 ">Sign in</button>
+                <p class="mt-2">Not a member? <a class="SUp">Sign up now !</a></p>
+
+            </form>
+        </div>
+        <div class="sign-Up text-center">
+            <h5 style="color:#609cac " class="py-1">Create account</h5>
+
+            <form class="SignUp-form">
+                <input id="Fname" class="form-control" placeholder="-First Name">
+                <input id="Lname" class="form-control" placeholder="-Last Name">
+                <div class="clearfix"></div>
+
+                <input type="password" id="pass" placeholder="-Password" class="form-control w-75 mt-3 ">
+                <input type="password" id="Rpass" placeholder="-Repeat Password" class="form-control w-75  mt-3 ">
+
+                <div class="form-group">
+                    <label class="BD pt-3">Birth Date</label>
+                    <input type="date" class="bdi w-75 m-auto form-control " placeholder="MM/DD/YYYY">
+                </div>
+                <label class="BD">Gender</label>
+                <div class="wrapper">
+                    <div class="toggle_radio">
+                        <input type="radio" class="toggle_option" id="first_toggle" name="toggle_option">
+                        <input type="radio" checked class="toggle_option" id="second_toggle" name="toggle_option">
+                        <input type="radio" class="toggle_option" id="third_toggle" name="toggle_option">
+                        <label for="first_toggle">
+                            <p>Male</p>
+                        </label>
+                        <label for="second_toggle">
+                            <p>Female</p>
+                        </label>
+                        <label for="third_toggle">
+                            <p>Unkown</p>
+                        </label>
+                        <div class="toggle_option_slider">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-group dropright float-left mr-4 ml-5 mt-3">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blood Type
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">A+</a>
+                        <a class="dropdown-item" href="#">A-</a>
+                        <a class="dropdown-item" href="#">B+</a>
+                        <a class="dropdown-item" href="#">B-</a>
+                        <a class="dropdown-item" href="#">O+</a>
+                        <a class="dropdown-item" href="#">O-</a>
+                        <a class="dropdown-item" href="#">AB+</a>
+                        <a class="dropdown-item" href="#">AB-</a>
+                    </div>
+                </div>
+                <input type="text" placeholder="Nearest hospital" class="form-control w-50 py-3 float-left mr-2 mt-3 shadow-sm">
+                <div class="clearfix"></div>
+                <button type="submit" class="btn btn-info mt-4 w-75 ">SignUp</button>
+                <p>Already a member? <a class="Lredirect">Login</a></p>
+
+            </form>
+        </div>
+    </section>
+    <header class="home pb-3">
 
         <nav id="NAV" class="fixed-top navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png"></a>
@@ -142,7 +150,7 @@
         </div>
     </header>
     <section class="about" id="ab">
-        <div class="container bg-white rounded">
+        <div class="container bg-white rounded AU">
 
             <div class="row py-3">
                 <div class=" col-md-6">
@@ -151,33 +159,39 @@
                 <div class=" col-md-6 px-5 ">
                     <h2 class="about-us">About Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec</p>
+                    <div class="row">
 
-                    <div class="block table-bordered m-2 p-1 text-center rounded">
-                        <h5>Emergency Services</h5>
-                        <img class="icon" style="width:40px" src="images/ambulance.png">
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                        <div class="  col-md-6 text-center ">
+                            <div class="layer block">
+                                <h5>Emergency Services</h5>
+                                <img class="icon" style="width:40px" src="images/ambulance.png">
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+                        <div class=" col-md-6 text-center">
+                            <div class="layer block">
+                                <h5>Qualified Doctors</h5>
+                                <img class="icon" style="width:40px" src="images/doctor.png">
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-6 text-center">
+                            <div class="layer block mt-3">
+                                <h5>24/7 Services</h5>
+                                <img class="icon" style="width:40px" src="images/availability.png">
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+                        <div class=" col-md-6 text-center ">
+                            <div class="layer block mt-3">
+                                <h5>Outdoor Checkup</h5>
+                                <img class="icon" style="width:40px" src="images/stethoscope.png">
+                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="block table-bordered m-2 p-1 text-center rounded">
-                        <h5>Qualified Doctors</h5>
-                        <img class="icon" style="width:40px" src="images/doctor.png">
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-
-                    </div>
-
-                    <div class="block table-bordered m-2 p-1 text-center rounded">
-                        <h5>24/7 Services</h5>
-                        <img class="icon" style="width:40px" src="images/availability.png">
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-
-                    <div class="block table-bordered m-2 p-1 text-center rounded">
-                        <h5>Outdoor Checkup</h5>
-                        <img class="icon" style="width:40px" src="images/stethoscope.png">
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-
-                    </div>
-                    <div class="clearfix"></div>
-
                 </div>
             </div>
         </div>
@@ -197,10 +211,10 @@
                     <div class="carousel-inner">
                         <h1 class="pt mb-5">Our Patient says</h1>
 
-                        <div class="carousel-item active" data-interval="10000">
+                        <div class="carousel-item active row" data-interval="10000">
 
 
-                            <div class="inner-patient">
+                            <div class="inner-patient col-md-6">
 
 
                                 <span class="patient">
@@ -213,7 +227,7 @@
                                 <span>Patient</span>
                             </div>
 
-                            <div class="inner-patient">
+                            <div class="inner-patient col-md-6">
                                 <span class="patient">
                                     <img class="center-block rounded-circle img-circle client_patient" style="width: 100px;" src="images/person_1.jpg" alt="patient">
                                 </span>
@@ -223,9 +237,9 @@
                                 <span>Patient</span>
                             </div>
                         </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <div class="inner-patient">
-                                <span class="patient">
+                        <div class="carousel-item row" data-interval="3000">
+                            <div class="inner-patient col-md-6">
+                                <span class="patient ">
                                     <img class="center-block rounded-circle img-circle client_patient" style="width: 100px;" src="images/person_1.jpg" alt="patient">
                                 </span>
                                 <img class="ico   img-circle client_patient" style="width:25px" src="images/icons8-get-quote-30.png">
@@ -233,7 +247,7 @@
                                 <h3 class="client_name">-Jeff freshman</h3>
                                 <span>Patient</span>
                             </div>
-                            <div class="inner-patient">
+                            <div class="inner-patient col-md-6">
                                 <span class="patient">
                                     <img class="center-block rounded-circle img-circle client_patient" style="width: 100px;" src="images/person_2.jpg" alt="patient">
                                 </span>
@@ -243,8 +257,8 @@
                                 <span>Patient</span>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="inner-patient">
+                        <div class="carousel-item row">
+                            <div class="inner-patient col-md-6">
                                 <span class="patient">
                                     <img class="center-block rounded-circle img-circle client_patient" style="width: 100px;" src="images/person_1.jpg" alt="patient">
                                 </span>
@@ -253,7 +267,7 @@
                                 <h3 class="client_name">-Mikael santos</h3>
                                 <span>Patient</span>
                             </div>
-                            <div class="inner-patient">
+                            <div class="inner-patient col-md-6">
                                 <span class="patient">
                                     <img class="center-block rounded-circle img-circle client_patient" style="width: 100px;" src="images/person_4.jpg" alt="patient">
                                 </span>
@@ -284,7 +298,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="mobtext col-md-12 col-sm-12 col-lg-6 text-left">
+                <div class="mobtext col-md-12 col-sm-12 col-lg-6 text-left mobcont">
                     <h2>Join Our Community on Mobile
                         and use our app from any place and
                         anytime without any problem
@@ -312,7 +326,7 @@
 
                 </div>
 
-                <div class=" col-md-12 col-sm-12 col-lg-4 mx-5">
+                <div class=" col-md-10 col-sm-12 col-lg-4 mx-5">
                     <img class="img-fluid " src="images/Mockup.png">
                 </div>
             </div>
@@ -343,24 +357,24 @@
 
     </section>
 
-<footer class="mt-5 bg-light footer">
-   <div class="container">
-   <div class="float-left">
-    <h5><i class="fas fa-dot-circle"></i> Diseases Scout <span class="text-muted">@2020</span></h5>
-    <p>Health is precious – Protect it</p>
-        <p class="text-muted">Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset,.
-</p>
-</div>
-<div class="float-right">
-    <h5>Subscribe for newsletter</h5>
-    <div>
-    <input type="text" placeholder="insert text here" class="form-control mb-2 float-left w-75">
-    <button class="float-right btn btn-primary">Search</button>
-</div>
-</div>
-<div class="clearfix"></div>
-</div>
-</footer>
+    <footer class="mt-5 bg-light footer">
+        <div class="container">
+            <div class="float-left">
+                <h5><i class="fas fa-dot-circle"></i> Diseases Scout <span class="text-muted">@2020</span></h5>
+                <p>Health is precious – Protect it</p>
+                <p class="text-muted">Lorem ipsum dolor sit amet, solum dictas vim cu, ne his hendrerit deterruisset,.
+                </p>
+            </div>
+            <div class="float-right">
+                <h5>Subscribe for newsletter</h5>
+                <div>
+                    <input type="text" placeholder="insert text here" class="form-control mb-2 float-left w-75">
+                    <button class="float-right btn btn-primary">Search</button>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
 
 
     <script src="js/jquery-3.4.1.min.js"></script>

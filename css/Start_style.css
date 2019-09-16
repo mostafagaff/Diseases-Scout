@@ -220,15 +220,14 @@ span
 .noor {
     width: 50%;
     height: auto;
-    background-color: #fbfbfb;
+    background-color: white;
     position: relative;
+    top: 2%;
     bottom: 420px;
     border-radius: 10px;
     margin: auto !important;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.16);
-    position: absolute
 }
-
 .xd {
     margin-top: 20px;
     margin-left: 0px;
